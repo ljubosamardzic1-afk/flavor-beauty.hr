@@ -136,9 +136,9 @@ h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;letter-spacing:.03e
   border:1px solid var(--line);overflow:hidden;
 }
 .pin{position:absolute;left:50%;top:48%;transform:translate(-50%,-50%)}
-.pin .dot{width:14px;height:14px;border-radius:50%;background:var(--gold);position:relative;z-index:2;box-shadow:0 0 0 4px rgba(14,13,12,.9)}
+.pin .dot{display:block;width:14px;height:14px;border-radius:50%;background:var(--gold);position:relative;z-index:2;box-shadow:0 0 0 4px rgba(14,13,12,.9)}
 .pin .ring{
-  position:absolute;left:50%;top:50%;width:14px;height:14px;border-radius:50%;
+  display:block;position:absolute;left:50%;top:50%;width:14px;height:14px;border-radius:50%;
   background:var(--gold);transform:translate(-50%,-50%);opacity:.5;
   animation:ping 2.6s cubic-bezier(.2,.6,.4,1) infinite;
 }
